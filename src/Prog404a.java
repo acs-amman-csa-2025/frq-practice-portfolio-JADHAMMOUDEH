@@ -38,5 +38,8 @@ public class Prog404a{
                 c++;
             }
         }
+        for(int k = 0; k < Math.min(posCount,negCount); k++){
+            System.out.println(positives[k] + " " + negatives[k]);
+        }
     }
 }
