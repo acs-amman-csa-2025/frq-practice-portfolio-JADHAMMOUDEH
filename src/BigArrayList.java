@@ -17,10 +17,10 @@ public class BigArrayList {
             ran = (int)(Math.random() * 71) + 20;
             random.add(ran);
         }
-        for(int i = 0; i < random.size(); i++){
+        for(int i = 0; i < random.size() - 1; i++){
             System.out.println(random.get(i));
         }
-        center = random.size() / 2;
+        center = random.get(random.size() / 2);
 
         System.out.println(random.get(center));
 
